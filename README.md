@@ -4,46 +4,46 @@ This project is a Machine Learning-based web application that predicts house pri
 📌 Project Overview
 The goal of this project is to:
 
-Collect and preprocess real estate data.
+1.Collect and preprocess real estate data.
 
-Train a machine learning model to predict house prices.
+2.Train a machine learning model to predict house prices.
 
-Deploy the model using a Flask web application.
+3.Deploy the model using a Flask web application.
 
-Provide an interactive frontend for users to input details and view predictions.
+4.Provide an interactive frontend for users to input details and view predictions.
 
 🔧 Technologies Used
 👨‍💻 Backend
-Python 🐍
+1.Python 🐍
 
-NumPy, Pandas
+2.NumPy, Pandas
 
-Scikit-learn (for ML model)
+3.Scikit-learn (for ML model)
 
-Pickle (to save the model)
+4.Pickle (to save the model)
 
 🌐 Frontend
 HTML/CSS
 
-Bootstrap (for UI)
+1.Bootstrap (for UI)
 
-JavaScript (optional interactivity)
+2.JavaScript (optional interactivity)
 
 🚀 Deployment
 Flask Web Framework
 
 🧠 Machine Learning Workflow
-Data Collection: Used a cleaned dataset containing housing features and price.
+1.Data Collection: Used a cleaned dataset containing housing features and price.
 
-Preprocessing: Handled missing values, label encoding, feature selection.
+2.Preprocessing: Handled missing values, label encoding, feature selection.
 
-Model Selection: Chose Linear Regression for prediction.
+3.Model Selection: Chose Linear Regression for prediction.
 
-Training & Evaluation: Split data into train-test sets, trained the model, and evaluated with metrics like R² score.
+4.Training & Evaluation: Split data into train-test sets, trained the model, and evaluated with metrics like R² score.
 
-Model Saving: Serialized the trained model using Pickle.
+5.Model Saving: Serialized the trained model using Pickle.
 
-Integration: Connected the model to the Flask backend for real-time predictions.
+6.Integration: Connected the model to the Flask backend for real-time predictions.
 
 💡 Features
 📍 Predicts house price based on input parameters.
